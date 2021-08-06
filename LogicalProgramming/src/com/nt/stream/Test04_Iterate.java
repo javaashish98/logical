@@ -7,6 +7,7 @@ public class Test04_Iterate {
 	public static void main(String[] args) {
 
 		Stream.iterate(5,n->n+5).limit(10).forEach(System.out::println);
+		//I Have added some code
 	}
 
 }
